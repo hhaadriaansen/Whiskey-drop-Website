@@ -1,0 +1,299 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/* note Important -
+Here is the css for the  col-12 that i can change to remove the padding for that for the smallest viewport but i think the white strip is comming from the table in the favorite section !) */
+.col-sm-12 {
+  padding: 0;
+}
+
+
+/* ------------------------------------------------ Container-wrappers */
+
+.feature-con-wrapper {
+  background-color: #f05f40;
+  color: #fff;
+}
+
+.quotes-con-wrapper {
+  background-color: #345f70;
+  font-weight: bold;
+}
+
+.favorites-wrapper {
+  background-color: #212529;
+  font-weight: bold;
+  color: #345f70;
+}
+
+
+
+/* ----------------------------------------------- Alert container  */
+
+.alert-container .col-12 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.site-wide-alert {
+  border-radius: 0;
+  padding: 5px, 15px;
+  margin-bottom: 0;
+  background-color: #c78916;
+  border-color: #c78916;
+  color: #345f70;
+}
+
+.thick {
+  font-weight: bold;
+  color: #007bffda;
+}
+
+
+
+/* ------------------------------------------------------ Page headers */
+
+.page-header {
+  margin-bottom: 0px;
+  border-bottom: 0px;
+  text-align: center;
+}
+
+.page-header h2 {
+  margin-top: 0;
+}
+
+
+
+/* ----------------------------------------------- Block (webpage-)dividers */
+
+.block-divider {
+  height: 5px;
+  width: 75px;
+  border: 0;
+  background-color: #345f70;
+}
+
+.block-divider--grayblue {
+  background-color: #345f70;
+}
+
+.block-divider--short {
+  width: 35px;
+}
+
+.block-divider--white {
+  background-color: white;
+}
+
+.block-divider--dark {
+  background-color: #212529;
+}
+
+.block-divider-extra {
+  margin-bottom: 35px;
+}
+
+
+
+/* --------------------------------------------------- Content containers*/
+
+.content-container {
+  padding: 75px 0px;
+}
+
+
+
+/* ---------------------------------------------------- Navbar*/
+
+.navalert-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 0;
+  padding-right: 0;
+
+  z-index: 1;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.438)
+}
+
+.navbar .navbar-toggler {
+  border: 0;
+}
+
+.navbar-dark .navbar-brand {
+  font-weight: bold;
+  color: #345f70;
+}
+
+.navbar .navbar-nav a {
+  font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link {
+  color: rgb(52, 95, 112);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(52, 95, 112, 0.699);
+}
+
+.nav-inlineText {
+  color: #345f70;
+}
+
+
+
+/* ----------------------------------------------------- Callout! */
+
+.callout-container {
+  height: 100vh;
+  /* This will make the callout section to be the 100% of viewport height! */
+
+  background: url(images/whiskey-background.jpg) no-repeat bottom right fixed;
+  /* This part combined with the cover part below will creates a full width background image! */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  /* activates flexbox codes.So we can center the content horizontally & vertically. */
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+.img-size {
+  height: 100px;
+  width: 100px;
+}
+
+.opaque-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.63);
+  height: 100%;
+  width: 100%;
+}
+
+mark {
+  background-color: #c78916;
+  color: #fff;
+  border-radius: 5%;
+}
+
+.crossed {
+  color: rgba(52, 95, 112, 0.5);
+}
+
+/* ----------------------------------------------------- Callout- Jumbotron */
+
+.jumbotron {
+  background-color: transparent;
+}
+
+.jumbotron-header {
+  color: #345f70;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.jumbotron .lead {
+  color: #345f70;
+  margin: 25px 0;
+
+}
+
+.jumbotron small {
+  font-size: 60%;
+  font-style: italic;
+  color: #345f70;
+}
+
+/* --------------------------------------------------  Callout - Buttons */
+
+.btn--red {
+  color: white;
+  background-color: #f05f40;
+  border-color: #F05f40;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+  background-color: #8a240d;
+  border-color: #8a240d;
+}
+
+
+
+/* ------------------------------------------------------------- Quotes! */
+
+.quotes .page-header {
+  margin-bottom: 25px;
+}
+
+.text-uppercase {
+  font-weight: bold;
+}
+
+
+
+/* ------------------------------------------------------------ Features! */
+
+.feature {
+  text-align: center;
+}
+
+.icon {
+  margin-bottom: 20px;
+  font-size: 45px;
+  line-height: 45px;
+}
+
+/* ---------------------------------------------------- Features - buttons */
+
+.feature .btn {
+  background-color: white;
+  border-color: white;
+  border-radius: 15px;
+  min-width: 100px;
+  margin-top: 10px;
+  color: #F05f40;
+  font-weight: bold;
+}
+
+
+
+/* -------------------------------------------------------------- Favorites! */
+
+.dropdown-menu {
+  background-color: #e9ecefd5;
+}
+
+.dropdown-item:hover {
+  background-color: #37393b80;
+}
+
+/* ------------------------------------------------------------------ modal */
+
+.modal-color {
+  background-color: #e9ecefd5;
+}
+
+
