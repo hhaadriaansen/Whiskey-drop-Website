@@ -3,12 +3,12 @@ body {
 }
 
 
-/* note Important -
-Here is the css for the  col-12 that i can change to remove the padding for that for the smallest viewport but i think the white strip is comming from the table in the favorite section !) */
-.col-sm-12 {
-  padding: 0;
-}
-
+.container,
+  .container-fluid,
+  .row {
+    margin: 0;
+    padding: 0;
+  }
 
 /* ------------------------------------------------ Container-wrappers */
 
@@ -26,6 +26,7 @@ Here is the css for the  col-12 that i can change to remove the padding for that
   background-color: #212529;
   font-weight: bold;
   color: #345f70;
+  background-color: #010101;
 }
 
 
@@ -101,7 +102,7 @@ Here is the css for the  col-12 that i can change to remove the padding for that
 /* --------------------------------------------------- Content containers*/
 
 .content-container {
-  padding: 75px 0px;
+  padding: 25px 0px;
 }
 
 
@@ -297,3 +298,71 @@ mark {
 }
 
 
+/*--------------------------------------------------------- Media queries */
+
+@media (max-width: 321px) {
+
+  
+
+  .feature p {
+    margin: 15px 10px 15px 20px;
+  }
+
+  .favorites-wrapper {
+    padding-top: 20px;
+    padding-bottom: 0px;
+    background-color: #010101;
+  }
+
+  .callout-wrapper {
+    padding-top: 56px
+  }
+
+  .quotes-con-wrapper {
+    padding-top: 20px;
+  }
+
+  .feature-con-wrapper {
+    padding-top: 20px;
+  }
+
+  .navbar {
+    background-color: #010101;
+  }
+
+  .col-12 {
+    padding: 0px;
+  }
+
+  .media-body .blockquote p {
+    margin: 0px 16px;
+  }
+
+}
+/*
+@media (min-width: 992px) {
+  
+  .favorites-wrapper {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .callout-wrapper {
+    
+  }
+
+  .quotes-con-wrapper {
+    
+  }
+
+  .feature-con-wrapper {
+    
+  }
+
+====
+maybe something with this watch the videos as to how to center the whole div inside bootstrap!!
+align-items: center;
+  justify-content: center;
+
+  */

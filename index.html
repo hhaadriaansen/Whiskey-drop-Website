@@ -40,7 +40,7 @@
             <a href="#">
               <span class="thick">
                 See here for details
-                <span>
+              </span>
             </a>
           </div>
         </div>
@@ -129,42 +129,44 @@
 
 
   <!-- Callout -->
-  <div class="container-fluid callout-container">
-    <div class="opaque-overlay">&nbsp;</div>
-    <!-- Important note!
+  <div class="callout-wrapper">
+    <div class="container-fluid callout-container">
+      <div class="opaque-overlay">&nbsp;</div>
+      <!-- Important note!
     The &nbsp; stands for (non-breaking-space) and is used to create multiple lines of space that are visible on a webpage and not only on the source code!-->
-    <div class="row">
-      <div class="col-12">
-        <section class="callout jumbotron mt-3 text-center">
-          <h1 class="jumbotron-header">
-            The finest Whiskeys delivered to your doorstep.
-          </h1>
-          <hr class="block-divider block-divider--grayblue">
+      <div class="row">
+        <div class="col-12">
+          <section class="callout jumbotron mt-3 text-center">
+            <h1 class="jumbotron-header">
+              The finest Whiskeys delivered to your doorstep.
+            </h1>
+            <hr class="block-divider block-divider--grayblue">
 
-          <p class="lead">
-            Sign Up today to start receiving the world's best whiskeys every month!
-            <strong class="d-none d-sm-inline crossed">19,99€</strong>
-            <span class="d-inline d-sm-none"></br></span>
-            <!-- Important NOTE:
+            <p class="lead">
+              Sign Up today to start receiving the world's best whiskeys every month!
+              <strong class="d-none d-sm-inline crossed">19,99€</strong>
+              <span class="d-inline d-sm-none"><br></span>
+              <!-- Important NOTE:
             The d-none and d-sm-inline classes will create that the stricken 19,99€-element,
             is gone on smaller mobile viewports. 
             Inline is used instead of block as it is an inline element-tag!
             <span class="d-inline d-sm-none"> </br> <span> will create, that the element will have it's own line when used on smaller viewports and will revert back to the same line when on larger viewports!-->
-            <strong>
-              <mark>
-                First one is free!
-              </mark>
-            </strong>
-          </p>
+              <strong>
+                <mark>
+                  First one is free!
+                </mark>
+              </strong>
+            </p>
 
-          <button class="btn btn--red  btn--cta btn-lg" data-toggle="modal" data-target="#signUpModal">
-            Sign Up!
-          </button>
+            <button class="btn btn--red  btn--cta btn-lg" data-toggle="modal" data-target="#signUpModal">
+              Sign Up!
+            </button>
 
-          <p class="text-muted">
-            <small>You must be over 18 to sign up to our service. Please drink responsibly.</small>
-          </p>
-        </section>
+            <p class="text-muted">
+              <small>You must be over 18 to sign up to our service. Please drink responsibly.</small>
+            </p>
+          </section>
+        </div>
       </div>
     </div>
   </div>
