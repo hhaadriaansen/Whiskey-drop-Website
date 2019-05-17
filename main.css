@@ -339,30 +339,12 @@ mark {
   }
 
 }
-/*
+
 @media (min-width: 992px) {
   
-  .favorites-wrapper {
-    position: relative;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .callout-wrapper {
-    
-  }
-
-  .quotes-con-wrapper {
-    
-  }
-
-  .feature-con-wrapper {
-    
-  }
-
-====
-maybe something with this watch the videos as to how to center the whole div inside bootstrap!!
-align-items: center;
-  justify-content: center;
-
-  */
+  .content-container {
+    padding: 25px 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+}
